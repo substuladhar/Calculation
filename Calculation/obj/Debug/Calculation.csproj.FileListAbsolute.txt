@@ -4,3 +4,9 @@ c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\bi
 c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\bin\Debug\Calculation.pdb
 c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\obj\Debug\Calculation.exe
 c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\obj\Debug\Calculation.pdb
+D:\asmitaa\Calculation\Calculation\bin\Debug\Calculation.exe.config
+D:\asmitaa\Calculation\Calculation\bin\Debug\Calculation.exe
+D:\asmitaa\Calculation\Calculation\bin\Debug\Calculation.pdb
+D:\asmitaa\Calculation\Calculation\obj\Debug\Calculation.csprojResolveAssemblyReference.cache
+D:\asmitaa\Calculation\Calculation\obj\Debug\Calculation.exe
+D:\asmitaa\Calculation\Calculation\obj\Debug\Calculation.pdb
