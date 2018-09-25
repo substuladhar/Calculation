@@ -1,0 +1,6 @@
+c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\bin\Debug\Calculation.exe.config
+c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\obj\Debug\Calculation.csprojResolveAssemblyReference.cache
+c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\bin\Debug\Calculation.exe
+c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\bin\Debug\Calculation.pdb
+c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\obj\Debug\Calculation.exe
+c:\users\dipesh\documents\visual studio 2013\Projects\Calculation\Calculation\obj\Debug\Calculation.pdb
