@@ -17,9 +17,11 @@ namespace Calculation
             double sum = add(a, b);
             double difference = subtract(a, b);
             double product = mul(a, b);
+            double divide = division(a, b);
             Console.WriteLine("SUM = {0}", sum);
             Console.WriteLine("DIFFERENCE = {0}", difference);
             Console.WriteLine("PRODUCT = {0}", product);
+            Console.WriteLine("Division={0}", divide);
             Console.ReadKey();
         }
 
@@ -35,6 +37,10 @@ namespace Calculation
         static double mul(double a, double b)
         {
             return (a * b);
+        }
+        static double division(double a, double b)
+        {
+            return (a / b);
         }
     }
 
