@@ -13,14 +13,21 @@ namespace Calculation
 
             double a = 2;
             double b = 4;
-            double sum=add(a, b);
+            double sum = add(a, b);
+            double difference = subtract(a,b);
             Console.WriteLine("SUM = {0}", sum);
+            Console.WriteLine("DIFFERENCE = {0}", difference);
             Console.ReadKey();
         }
           
         static double add(double a, double b)
         {
             return (a + b);
+        }
+
+        static double subtract(double a,double b)
+        {
+            return (a - b);
         }
     
     }
