@@ -10,16 +10,18 @@ namespace Calculation
     {
         static void Main(string[] args)
         {
-
+            
             double a = 2;
             double b = 4;
 
             double sum = add(a, b);
             double difference = subtract(a, b);
             double product = mul(a, b);
+            double power = pow(3, 2);
             Console.WriteLine("SUM = {0}", sum);
             Console.WriteLine("DIFFERENCE = {0}", difference);
             Console.WriteLine("PRODUCT = {0}", product);
+            Console.WriteLine("POWER = {0}", power);
             Console.ReadKey();
         }
 
@@ -36,6 +38,12 @@ namespace Calculation
         {
             return (a * b);
         }
-    }
+
+        static double pow(double a, double b)
+        {
+            return (Math.Pow(a, b));
+
+        }
+    }   
 
 }
