@@ -14,7 +14,10 @@ namespace Calculation
             double a = 2;
             double b = 4;
             double sum=add(a, b);
+            double product = mul(a ,b);
             Console.WriteLine("SUM = {0}", sum);
+            Console.WriteLine("PRODUCT = {0}", product);
+
             Console.ReadKey();
         }
           
@@ -22,6 +25,9 @@ namespace Calculation
         {
             return (a + b);
         }
-    
+       static double mul(double a,double b)
+        {
+            return (a * b);
+        }
     }
 }
