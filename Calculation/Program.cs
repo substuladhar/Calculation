@@ -23,10 +23,8 @@ namespace Calculation
             Console.WriteLine("PRODUCT = {0}", product);
             Console.WriteLine("Division={0}", divide);
             double power = pow(3, 2);
-            Console.WriteLine("SUM = {0}", sum);
-            Console.WriteLine("DIFFERENCE = {0}", difference);
-            Console.WriteLine("PRODUCT = {0}", product);
             Console.WriteLine("POWER = {0}", power);
+            greatest(a, b);
             Console.ReadKey();
         }
 
@@ -53,6 +51,10 @@ namespace Calculation
         {
             return (Math.Pow(a, b));
 
+        }
+        static void greatest(double a,double b)
+        {
+            Console.WriteLine("greatest number={0}",(Math.Max(a, b)));
         }
     }   
 
