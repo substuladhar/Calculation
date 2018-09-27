@@ -19,10 +19,8 @@ namespace Calculation
             double product = mul(a, b);
             double divide = division(a, b);
             double power = pow(3, 2);
-<<<<<<< HEAD
             Console.WriteLine("POWER = {0}", power);
             greatest(a, b);
-=======
             double small = smallest(a, b);
             Console.WriteLine("SUM = {0}", sum);
             Console.WriteLine("DIFFERENCE = {0}", difference);
@@ -30,7 +28,6 @@ namespace Calculation
             Console.WriteLine("DIVISION = {0}", divide);
             Console.WriteLine("POWER = {0}", power);
             Console.WriteLine("SMALLEST NUMBER = {0}", small);
->>>>>>> 11691d363f7d97fe47ef3dfdb63136693ffbbcc7
             Console.ReadKey();
         }
 
