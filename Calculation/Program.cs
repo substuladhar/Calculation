@@ -18,13 +18,19 @@ namespace Calculation
             double difference = subtract(a, b);
             double product = mul(a, b);
             double divide = division(a, b);
+            double power = pow(3, 2);
+<<<<<<< HEAD
+            Console.WriteLine("POWER = {0}", power);
+            greatest(a, b);
+=======
+            double small = smallest(a, b);
             Console.WriteLine("SUM = {0}", sum);
             Console.WriteLine("DIFFERENCE = {0}", difference);
             Console.WriteLine("PRODUCT = {0}", product);
-            Console.WriteLine("Division={0}", divide);
-            double power = pow(3, 2);
+            Console.WriteLine("DIVISION = {0}", divide);
             Console.WriteLine("POWER = {0}", power);
-            greatest(a, b);
+            Console.WriteLine("SMALLEST NUMBER = {0}", small);
+>>>>>>> 11691d363f7d97fe47ef3dfdb63136693ffbbcc7
             Console.ReadKey();
         }
 
@@ -50,7 +56,14 @@ namespace Calculation
         static double pow(double a, double b)
         {
             return (Math.Pow(a, b));
+        }
 
+        static double smallest(double a,double b)
+        {
+            if (a < b)
+                return (a);
+            else
+                return (b);
         }
         static void greatest(double a,double b)
         {
