@@ -18,15 +18,14 @@ namespace Calculation
             double difference = subtract(a, b);
             double product = mul(a, b);
             double divide = division(a, b);
-            Console.WriteLine("SUM = {0}", sum);
-            Console.WriteLine("DIFFERENCE = {0}", difference);
-            Console.WriteLine("PRODUCT = {0}", product);
-            Console.WriteLine("Division={0}", divide);
             double power = pow(3, 2);
+            double small = smallest(a, b);
             Console.WriteLine("SUM = {0}", sum);
             Console.WriteLine("DIFFERENCE = {0}", difference);
             Console.WriteLine("PRODUCT = {0}", product);
+            Console.WriteLine("DIVISION = {0}", divide);
             Console.WriteLine("POWER = {0}", power);
+            Console.WriteLine("SMALLEST NUMBER = {0}", small);
             Console.ReadKey();
         }
 
@@ -52,7 +51,14 @@ namespace Calculation
         static double pow(double a, double b)
         {
             return (Math.Pow(a, b));
+        }
 
+        static double smallest(double a,double b)
+        {
+            if (a < b)
+                return (a);
+            else
+                return (b);
         }
     }   
 
